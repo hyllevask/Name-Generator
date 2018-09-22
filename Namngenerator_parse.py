@@ -42,7 +42,7 @@ mu = mu/100
 print alpha
 print mu
 print namn_list
-print np.random.random_sample()
+
 
 np.savetxt('P.txt', alpha,  fmt='%.4e')
 np.savetxt('mu.txt', mu, fmt='%.4e')
